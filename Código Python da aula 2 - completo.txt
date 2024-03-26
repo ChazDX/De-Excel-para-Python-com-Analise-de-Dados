@@ -1,0 +1,31 @@
+import pandas as pd
+
+df_principal = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Principal")
+df_principal.head(10)
+
+df_principal = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Principal")
+df_principal.head(10)
+
+df_Analises = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Analises")
+df_Analises.head(10)
+
+df_Semanal = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Semanal")
+df_Semanal.head(10)
+
+df_Mensal = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Mensal")
+df_Mensal.head(10)
+
+df_Anual = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Anual")
+df_Anual.head(10)
+
+df_12_Mêses = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="12 Mêses")
+df_12_Mêses.head(10)
+
+df_Chat_GPT = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Chat GPT")
+df_Chat_GPT.head(10)
+
+df_total_acoes = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Total_de_acoes")
+df_total_acoes.head(10)
+
+df_Ticker = pd.read_excel("/content/Imersão Python - Tabela de ações.xlsx", sheet_name="Ticker")
+df_Ticker.head(10)
